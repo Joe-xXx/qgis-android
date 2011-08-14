@@ -78,11 +78,11 @@ public class QtApplication extends Application
             }
             catch (SecurityException e)
             {
-                Log.i(QtTAG, "Can't load '" + libraries[i] + "'", e);
+                Log.e(QtTAG, "Can't load '" + libraries[i] + "'", e);
             }
             catch (Exception e)
             {
-                Log.i(QtTAG, "Can't load '" + libraries[i] + "'", e);
+                Log.e(QtTAG, "Can't load '" + libraries[i] + "'", e);
             }
         }
     }
@@ -99,15 +99,15 @@ public class QtApplication extends Application
             }
             catch (UnsatisfiedLinkError e)
             {
-                Log.i(QtTAG, "Can't load '" + libraries[i] + "'", e);
+                Log.e(QtTAG, "Can't load '" + libraries[i] + "'", e);
             }
             catch (SecurityException e)
             {
-                Log.i(QtTAG, "Can't load '" + libraries[i] + "'", e);
+                Log.e(QtTAG, "Can't load '" + libraries[i] + "'", e);
             }
             catch (Exception e)
             {
-                Log.i(QtTAG, "Can't load '" + libraries[i] + "'", e);
+                Log.e(QtTAG, "Can't load '" + libraries[i] + "'", e);
             }
         }
     }
